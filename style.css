@@ -3,6 +3,7 @@ body {
     font-family: 'Source Sans pro';
     background-color: #eee  ;
     font-weight: 200;
+ 
     /* text-align: center; */
 }
 
@@ -13,9 +14,10 @@ a{
 
 p{
     
-    padding:0 10px;
+    padding:0; 
     font-size: 0.9em;
     text-align: justify;
+
     /* border-bottom: 1px solid #eee; */
     
 }
@@ -44,15 +46,18 @@ main h5{
 nav{
     border-top:solid #eee;
     border-bottom: solid #eee;
-    /* position:sticky; */
+    position:sticky;
+    top: 0em;
+    background-color: white;
 }
 
 nav a{
    color: #777;
+       /* position:sticky; */
 }
 
 nav ul{
-
+    position:sticky;
     margin: 0px;
     padding:0%;
     text-align: center;
@@ -86,8 +91,9 @@ nav li{
 }
 
 .more-articles{
-   margin-top: 1em;
-   border-top: 1px solid #eee;
+  
+   border-top: 2px solid #eee;
+   padding: 0;
    
   
 }
@@ -101,7 +107,7 @@ nav li{
 
 }
 
-.more-article img{
+.more-articles img{
    width: 100%;
    
 }
